@@ -42,7 +42,7 @@ public class FoodServiceImp implements FoodService {
 						.min(Comparator.comparingDouble(Food::getPrice)).orElse(null))
 				.filter(Objects::nonNull).toList(); 
 //		val1 = val.stream().skip(3).toList();
-		return val1;
+		return val;
 	}
 
 }
