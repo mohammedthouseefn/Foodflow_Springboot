@@ -1,6 +1,6 @@
 FROM eclipse-temurin:21-jdk
 
-WORKDIR /foodFlow
+WORKDIR /foodflow
 
 COPY target/foodflow-0.0.1.jar foodflow.jar
 
